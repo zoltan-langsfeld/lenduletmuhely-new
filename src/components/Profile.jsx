@@ -20,10 +20,7 @@ const Profile = ({ data }) => {
 					E-mail: <span>{email}</span>
 				</p>
 			</div>
-			<button
-				type="submit"
-				className="rounded border-2 h-10 w-32 border-purple-600 bg-purple-600 mt-3"
-			>
+			<button type="submit" className="rounded h-10 w-32 bg-purple-600 mt-3">
 				<a className="text-white" href={detailsHref}>
 					Részletek»
 				</a>
