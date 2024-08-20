@@ -12,17 +12,22 @@ const Profile = ({ data }) => {
 			/>
 			<h2 className="text-3xl">{name}</h2>
 			<h3 className="text-xl">{title}</h3>
-			<p>
-				Telefonszám: <span>{phone}</span>
-			</p>
-			<p>
-				E-mail: <span>{email}</span>
-			</p>
-			<p>
-				<a href={detailsHref} role="button">
+			<div className="flex flex-col items-center justify-center mt-3">
+				<p>
+					Telefonszám: <span>{phone}</span>
+				</p>
+				<p>
+					E-mail: <span>{email}</span>
+				</p>
+			</div>
+			<button
+				type="submit"
+				className="rounded border-2 h-10 w-32 border-purple-600 bg-purple-600 mt-3"
+			>
+				<a className="text-white" href={detailsHref}>
 					Részletek»
 				</a>
-			</p>
+			</button>
 		</div>
 	);
 };
