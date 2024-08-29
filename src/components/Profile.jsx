@@ -10,8 +10,8 @@ const Profile = ({ data }) => {
 				alt="profile_image"
 				src={imgSrc}
 			/>
-			<h2 className="text-3xl">{name}</h2>
-			<h3 className="text-xl">{title}</h3>
+			<h1>{name}</h1>
+			<h3>{title}</h3>
 			<div className="flex flex-col items-center justify-center mt-3">
 				<p>
 					Telefonszám: <span>{phone}</span>
