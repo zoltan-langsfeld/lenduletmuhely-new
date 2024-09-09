@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Logo from "./Logo.jsx";
+import Logo from "../Logo.jsx";
 
-const MobileMenu = () => {
+const MobileNavbar = () => {
 	const [expandMenu, setExpandMenu] = useState(false);
 
 	const toggleMenu = () => {
@@ -78,4 +78,4 @@ const MobileMenu = () => {
 	);
 };
 
-export default MobileMenu;
+export default MobileNavbar;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Logo from "./Logo.jsx";
+import Logo from "../Logo.jsx";
 
-const DesktopMenu = () => {
+const DesktopNavbar = () => {
 	const [showServices, setShowServices] = useState(false);
 
 	const toggleServices = () => {
@@ -67,4 +67,4 @@ const DesktopMenu = () => {
 	);
 };
 
-export default DesktopMenu;
+export default DesktopNavbar;
